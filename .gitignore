@@ -1,0 +1,11 @@
+# Ignore all the files
+*
+
+
+!.gitignore
+
+!init.el
+!lisp/
+!lisp/**
+
+!README.md
