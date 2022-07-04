@@ -7,3 +7,6 @@
 [submodule "lisp/packages/markdown-mode"]
 	path = lisp/packages/markdown-mode
 	url = https://github.com/jrblevin/markdown-mode.git
+[submodule "lisp/packages/yasnippet"]
+	path = lisp/packages/yasnippet
+	url = https://github.com/joaotavora/yasnippet.git

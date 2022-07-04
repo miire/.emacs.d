@@ -12,6 +12,8 @@
 
 (require 'init-markdown)
 
+(require 'init-yasnippet)
+
 (require 'init-packages)
 
 (require 'init-completion)
