@@ -3,11 +3,11 @@
 
 ;;; Code:
 
-(require 'company)
+;; (require 'company)
 
-(add-hook 'prog-mode-hook 'global-company-mode)
+;; (add-hook 'prog-mode-hook 'global-company-mode)
 
-(setq company-minimum-prefix-length 1)
+;; (setq company-minimum-prefix-length 1)
 
 
 (provide 'init-company)
