@@ -14,6 +14,8 @@
 
 (require 'init-yasnippet)
 
+(require 'init-lsp-bridge)
+
 (require 'init-packages)
 
 (require 'init-completion)
