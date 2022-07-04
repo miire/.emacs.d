@@ -4,3 +4,6 @@
 [submodule "lisp/packages/posframe"]
 	path = lisp/packages/posframe
 	url = https://github.com/tumashu/posframe.git
+[submodule "lisp/packages/markdown-mode"]
+	path = lisp/packages/markdown-mode
+	url = https://github.com/jrblevin/markdown-mode.git

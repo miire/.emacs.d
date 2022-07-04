@@ -8,13 +8,17 @@
 
 (require 'init-company)
 
+(require 'init-flymake)
+
+(require 'init-markdown)
+
 (require 'init-packages)
 
 (require 'init-completion)
 
 (require 'init-tools)
 
-(require 'init-flymake)
+
 
 (require 'init-org)
 
