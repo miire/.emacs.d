@@ -6,6 +6,8 @@
 (require 'init-basic)
 (require 'init-ui)
 
+(require 'init-company)
+
 (require 'init-packages)
 
 (require 'init-completion)
