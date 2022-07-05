@@ -3,6 +3,7 @@
 
 
 !.gitignore
+!.gitmodules
 
 !init.el
 !lisp/
