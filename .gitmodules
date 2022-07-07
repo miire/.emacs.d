@@ -10,3 +10,12 @@
 [submodule "lisp/packages/lsp-bridge"]
 	path = lisp/packages/lsp-bridge
 	url = https://github.com/manateelazycat/lsp-bridge.git
+[submodule "vertico"]
+	path = lisp/packages/vertico
+	url = https://github.com/minad/vertico.git
+[submodule "orderless"]
+	path = lisp/packages/orderless
+	url = https://github.com/oantolin/orderless.git
+[submodule "marginalia"]
+	path = lisp/packages/marginalia
+	url = https://github.com/minad/marginalia.git
