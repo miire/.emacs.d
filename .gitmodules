@@ -19,3 +19,6 @@
 [submodule "marginalia"]
 	path = lisp/packages/marginalia
 	url = https://github.com/minad/marginalia.git
+[submodule "web-mode"]
+	path = lisp/packages/web-mode
+	url = https://github.com/fxbois/web-mode.git

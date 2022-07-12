@@ -5,14 +5,19 @@
 
 (require 'init-basic)
 (require 'init-ui)
-(require 'init-flymake)
-(require 'init-org)
-(require 'init-markdown)
-(require 'init-yasnippet)
-(require 'init-lsp-bridge)
+
 (require 'init-vertico)
 (require 'init-orderless)
 (require 'init-marginalia)
+
+(require 'init-yasnippet)
+(require 'init-lsp-bridge)
+;;(require 'init-flymake)
+(require 'init-web)
+
+(require 'init-org)
+(require 'init-markdown)
+
 
 
 ;; (require 'init-packages)

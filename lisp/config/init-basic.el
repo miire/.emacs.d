@@ -8,7 +8,7 @@
 (setq auto-save-default nil) ;; 关闭自动保存，不会生成以 '~' 结尾的文件
 
 (setq inhibit-startup-screen t)
-(menu-bar-mode -1)
+;; (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 
@@ -19,7 +19,7 @@
 (delete-selection-mode 1) ;; 输入字符替换选中的文本
 
 (setq-default indent-tabs-mode nil)
-(setq-default tab-width 4)
+(setq-default tab-width 2)
 
 (global-linum-mode 1) ;; 显示行号
 
