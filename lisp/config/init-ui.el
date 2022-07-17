@@ -9,7 +9,8 @@
 ;; http://stackoverflow.com/questions/294664/how-to-set-the-font-size-in-emacs
 ;; (set-face-attribute 'default nil :height 130)
 
-(load-theme 'leuven)
+;; (load-theme 'leuven)
+(load-theme 'modus-operandi)
 
 (provide 'init-ui)
 ;;; init-ui.el ends here
