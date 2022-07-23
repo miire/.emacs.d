@@ -22,3 +22,6 @@
 [submodule "web-mode"]
 	path = lisp/packages/web-mode
 	url = https://github.com/fxbois/web-mode.git
+[submodule "auto-save"]
+	path = lisp/packages/auto-save
+	url = https://github.com/manateelazycat/auto-save.git
