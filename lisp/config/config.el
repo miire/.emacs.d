@@ -6,6 +6,8 @@
 (require 'init-basic)
 (require 'init-ui)
 
+(require 'init-font)
+
 (require 'init-vertico)
 (require 'init-orderless)
 (require 'init-marginalia)
