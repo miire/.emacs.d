@@ -11,6 +11,7 @@
 (require 'init-vertico)
 (require 'init-orderless)
 (require 'init-marginalia)
+(require 'init-snails)
 
 (require 'init-yasnippet)
 (require 'init-lsp-bridge)
