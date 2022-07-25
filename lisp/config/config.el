@@ -12,6 +12,7 @@
 (require 'init-orderless)
 (require 'init-marginalia)
 (require 'init-snails)
+(require 'init-multiple-cursors)
 
 (require 'init-yasnippet)
 (require 'init-lsp-bridge)
