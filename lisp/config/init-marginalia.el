@@ -1,6 +1,6 @@
 
 (require 'marginalia)
 
-(marginalia-mode)
+(add-hook 'after-init-hook 'marginalia-mode)
 
 (provide 'init-marginalia)

@@ -4,7 +4,7 @@
 ;;; Code:
 
 (require 'lsp-bridge)
-(global-lsp-bridge-mode)
+(add-hook 'prog-mode-hook 'global-lsp-bridge-mode)
 
 (provide 'init-lsp-bridge)
 

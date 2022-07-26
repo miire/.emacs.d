@@ -3,7 +3,7 @@
 
 ;;; Code:
 
-
+(toggle-frame-maximized) ;; 最大化窗口
 
 ;; 更改显示字体大小
 ;; http://stackoverflow.com/questions/294664/how-to-set-the-font-size-in-emacs

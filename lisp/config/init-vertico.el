@@ -1,5 +1,5 @@
 (require 'vertico)
 
-(vertico-mode)
+(add-hook 'after-init-hook 'vertico-mode)
 
 (provide 'init-vertico)

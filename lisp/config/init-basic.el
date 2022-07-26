@@ -30,7 +30,7 @@
 (setq-default tab-width 2) ;; make tab-width always 2
 (global-linum-mode 1) ;; 显示行号
 (global-hl-line-mode 1) ;; 高亮光标所在行
-(setq-default cursor-type '(bar . 2))
+;; (setq-default cursor-type '(bar . 2))
 (global-auto-revert-mode 1) ;; 读取文件在Emacs外的修改
 (setq mouse-yank-at-point t) ;; 粘贴于光标处,而不是鼠标指针处
 (setq x-select-enable-clipboard t) ;; 支持emacs和外部程序的粘贴
@@ -38,7 +38,7 @@
 (setq frame-resize-pixelwise t) ;; 设置缩放的模式,避免Mac平台最大化窗口以后右边和下边有空隙
 (save-place-mode 1) ;; 保存光标位置
 
-(recentf-mode 1)
+(add-hook 'after-init-hook 'recentf-mode)
 (setq recentf-max-saved-items 50)
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
 
