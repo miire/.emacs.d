@@ -31,3 +31,6 @@
 [submodule "multiple-cursors"]
 	path = lisp/packages/multiple-cursors
 	url = https://github.com/magnars/multiple-cursors.el.git
+[submodule "meow"]
+	path = lisp/packages/meow
+	url = https://github.com/meow-edit/meow.git
