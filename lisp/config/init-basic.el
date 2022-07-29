@@ -35,13 +35,14 @@
 (setq mouse-yank-at-point t) ;; 粘贴于光标处,而不是鼠标指针处
 (setq x-select-enable-clipboard t) ;; 支持emacs和外部程序的粘贴
 (setq inhibit-compacting-font-caches t) ;; 使用字体缓存，避免卡顿
-(setq frame-resize-pixelwise t) ;; 设置缩放的模式,避免Mac平台最大化窗口以后右边和下边有空隙
+(setq frame-resize-pixelwise t) ;; 设置缩放的模式,避免Mac平台最大化窗口以后右边和下边有空隙(KDE下也可避免空隙)
 (save-place-mode 1) ;; 保存光标位置
 
 (add-hook 'after-init-hook 'recentf-mode)
 (setq recentf-max-saved-items 50)
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
 
+(prefer-coding-system 'utf-8)
 
 
 (provide 'init-basic)
