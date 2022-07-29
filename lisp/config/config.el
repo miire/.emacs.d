@@ -17,7 +17,6 @@
 (require 'init-orderless)
 (require 'init-marginalia)
 (require 'init-snails)
-(require 'init-multiple-cursors)
 (require 'init-meow)
 
 (require 'init-yasnippet)
