@@ -18,7 +18,7 @@
 (require 'init-marginalia)
 (require 'init-snails)
 (require 'init-meow)
-
+(require 'init-key)
 (require 'init-yasnippet)
 (require 'init-lsp-bridge)
 ;;(require 'init-flymake)

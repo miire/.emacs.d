@@ -40,7 +40,6 @@
 
 (add-hook 'after-init-hook 'recentf-mode)
 (setq recentf-max-saved-items 50)
-(global-set-key (kbd "C-x C-r") 'recentf-open-files)
 
 (prefer-coding-system 'utf-8)
 
